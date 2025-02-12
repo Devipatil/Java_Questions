@@ -35,5 +35,32 @@ Core Java Concepts :
 5. What is the difference between stack and heap memory?
 
 -> Stack memory is used for storing local variables and function call. while heap memory is used for objects and their
-   instance variables.     
-      
+   instance variables.  
+
+6. What is thedifference between method overloading and method overriding?
+
+-> Method overloading is creating multiple methods in a class with same name but different parameters, while method overriding 
+   is creating a method in a subclass with modified method body in subclass, same name and parameters as a method in its superclass.  
+
+7. What is the difference between private and protected modifier?
+
+-> A private modifier makes a member accessible only within the same class, while a protected  modifier makes a member accessible 
+   within the same class and its subclasses.  
+
+8. What is constructor overloading in java?
+
+->  A class can have multiple constructor with different parameter lists. Each constructor provides a different way to 
+    initialise objects of the class.   
+
+9. What is the use of super keyword in java?
+
+-> Super keyword is used to call the parent class's method when it has been overridden in a child class, to access the constructor 
+   of the parent class, and to access fields of the parent class if they are shadowed or hidden by subclasses.  
+
+10. What is the difference between static methods, static variables and static classes?
+
+-> Static methods and static variables belong to the class of the java program, not to the object of the class. There 
+   memory allocated when the class is loaded and can directly be called with the class name. A class in the java program 
+   cannot be static except if it is the inner class. If it is an inner static class, then it exactly works like other 
+   static members of the class.
+  
