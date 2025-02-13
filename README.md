@@ -63,4 +63,14 @@ Core Java Concepts :
    memory allocated when the class is loaded and can directly be called with the class name. A class in the java program 
    cannot be static except if it is the inner class. If it is an inner static class, then it exactly works like other 
    static members of the class.
-  
+
+11. What exactly is system.out.println in java?
+
+->  System.out.println() is a method to print a message on the console. System - It is a class present in java.lang package.
+    Out - is the static variable of type PrintStream class present in the System class. println() is the method present in 
+    the PrintStream class.  
+
+12. What part of memory - stack or heap - is cleaned in the garbage collection process?
+   
+->  Garbage collection is done on heap memory to free the memory used by objects that don't have any refernce. Any object 
+    created in the heap space has global access and can be referenced from anywhere in the application.
